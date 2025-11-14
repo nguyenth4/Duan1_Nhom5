@@ -1,0 +1,179 @@
+/* ===== FONT ===== */
+.cart-section {
+    font-family: "Poppins", sans-serif; 
+    padding: 60px 0;
+    background: linear-gradient(90deg, #f8f5ef, #e9f2f5);
+}
+
+/* ===== TITLE ===== */
+.cart-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #3d3d3d;
+    margin-bottom: 40px;
+}
+
+/* ===== TABLE ===== */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.cart-table thead th {
+    text-align: left;
+    padding: 15px 0;
+    color: #7a7a7a;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table tbody td {
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    color: #444;
+}
+
+.cart-img {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.qty-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.qty-box button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: #5a4a42;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.qty-box button:hover {
+    background: #e8c49c;
+}
+
+.qty-box input {
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Xóa sản phẩm */
+.remove {
+    color: #d66;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove:hover {
+    color: #b22;
+}
+
+/* ===== BUTTON ===== */
+.btn-dark {
+    background: #D7A86E;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.btn-dark:hover {
+    background: #c8945a;
+}
+
+.btn-checkout {
+    width: 100%;
+    padding: 15px;
+    background: #3d3d3d;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-checkout:hover {
+    background: #2b2b2b;
+}
+
+/* ===== COUPON & TOTAL ===== */
+.cart-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.coupon-box,
+.cart-totals {
+    width: 48%;
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.coupon-box h3,
+.cart-totals h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+
+.coupon-input {
+    display: flex;
+    gap: 10px;
+}
+
+.coupon-input input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.cart-totals ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-totals li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: 700;
+    color: #333;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .cart-bottom {
+        flex-direction: column;
+    }
+    .coupon-box,
+    .cart-totals {
+        width: 100%;
+    }
+}

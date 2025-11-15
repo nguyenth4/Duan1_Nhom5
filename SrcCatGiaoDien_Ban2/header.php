@@ -4,7 +4,7 @@
 
             <div class="col-sm-4 col-lg-3 text-center text-sm-start">
                 <div class="main-logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="assets/client/images/logo1.png" alt="Lumos Eyewear logo" class="img-fluid" style="height: 180px; width: 100%;">
                     </a>
                 </div>
@@ -101,14 +101,13 @@
 
                     <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link active">Trang chủ</a>
+                            <a href="index.php" class="nav-link active">Trang chủ</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
                                 aria-expanded="false">Giới thiệu</a>
                             <ul class="dropdown-menu" aria-labelledby="pages">
                                 <li><a href="about.html" class="dropdown-item">Về Lumos</a></li>
-                                <li><a href="shop.html" class="dropdown-item">Sản phẩm</a></li>
                                 <li><a href="product.html" class="dropdown-item">Chi tiết sản phẩm</a></li>
                                 <li><a href="cart.html" class="dropdown-item">Giỏ hàng</a></li>
                                 <li><a href="wishlist.html" class="dropdown-item">Yêu thích</a></li>
@@ -124,7 +123,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="shop.html" class="nav-link">Sản phẩm</a>
+                            <a href="shop.php" class="nav-link">Sản phẩm</a>
                         </li>
                         <li class="nav-item">
                             <a href="blog.html" class="nav-link">Tin tức</a>

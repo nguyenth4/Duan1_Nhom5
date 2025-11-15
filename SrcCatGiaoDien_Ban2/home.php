@@ -1,16 +1,16 @@
 <?php
 $array = [
 
-    "components\home\banner_1.php",
-    "components\home\categories.php",
-    "components\home\product_1.php",
-    "components\home\banner_2.php",
-    "components\home\slider.php",
-    "components\home\best_selling.php",
-    "components\home\contact-form.php",
-    "components\home\blog.php",
-    "components\home\service.php",
-    "components\home\insta.php"
+    "components/home/banner_1.php",
+    "components/home/categories.php",
+    "components/home/product_1.php",
+    "components/home/banner_2.php",
+    "components/home/slider.php",
+    "components/home/best_selling.php",
+    "components/home/contact-form.php",
+    "components/home/blog.php",
+    "components/home/service.php",
+    "components/home/insta.php"
 ];
 
 foreach ($array as $component) {
@@ -182,25 +182,6 @@ foreach ($array as $component) {
       </div>
     </div>
   </div>
-
-
-
-  <div id="footer-bottom">
-    <div class="container">
-      <hr class="m-0">
-      <div class="row mt-3">
-        <div class="col-md-6 copyright">
-          <p class="secondary-font">© 2023 Waggy. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-md-end">
-          <p class="secondary-font">Free HTML Template by <a href="https://templatesjungle.com/" target="_blank"
-              class="text-decoration-underline fw-bold text-black-50"> TemplatesJungle</a> Distributed by <a href="https://themewagon.com/" target="_blank"
-              class="text-decoration-underline fw-bold text-black-50"> ThemeWagon</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <script src="assets/client/js/jquery-1.11.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

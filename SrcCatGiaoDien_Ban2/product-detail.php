@@ -1,8 +1,8 @@
 <?php
 $array = [
-    "components\single-product\info.php",
-    "components\single-product\product-related.php",
-    "components\home\product-feature.php",
+    "components/single-product/info.php",
+    "components/single-product/product-related.php",
+    "components/home/product-feature.php",
 ];
 
 foreach ($array as $component) {

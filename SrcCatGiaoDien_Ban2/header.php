@@ -105,9 +105,9 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
-                                aria-expanded="false">Giới thiệu</a>
+                                aria-expanded="false">Giới thiệu</a>3
                             <ul class="dropdown-menu" aria-labelledby="pages">
-                                <li><a href="about.html" class="dropdown-item">Về Lumos</a></li>
+                                <li><a href="about.php" class="dropdown-item">Về Lumos</a></li>
                                 <li><a href="shop.html" class="dropdown-item">Sản phẩm</a></li>
                                 <li><a href="product.html" class="dropdown-item">Chi tiết sản phẩm</a></li>
                                 <li><a href="cart.html" class="dropdown-item">Giỏ hàng</a></li>

@@ -1,3 +1,14 @@
+<?php
+require_once 'header.php';
+$array = [
+    "components/contact.php"
+];
+
+foreach ($array as $component) {
+    require_once($component);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,3 +139,7 @@
 </body>
 
 </html>
+
+<?php 
+require_once "footer.php";
+?>

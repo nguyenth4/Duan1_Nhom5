@@ -110,12 +110,12 @@
                                 <li><a href="about.html" class="dropdown-item">Về Lumos</a></li>
                                 <li><a href="shop.html" class="dropdown-item">Sản phẩm</a></li>
                                 <li><a href="product.html" class="dropdown-item">Chi tiết sản phẩm</a></li>
-                                <li><a href="cart.html" class="dropdown-item">Giỏ hàng</a></li>
+                                <li><a href="cart.php" class="dropdown-item">Giỏ hàng</a></li>
                                 <li><a href="wishlist.html" class="dropdown-item">Yêu thích</a></li>
                                 <li><a href="checkout.html" class="dropdown-item">Thanh toán</a></li>
                                 <li><a href="blog.html" class="dropdown-item">Tin tức</a></li>
                                 <li><a href="post.html" class="dropdown-item">Bài viết</a></li>
-                                <li><a href="contact.html" class="dropdown-item">Liên hệ</a></li>
+                                <li><a href="contact.php" class="dropdown-item">Liên hệ</a></li>
                                 <li><a href="faq.html" class="dropdown-item">Câu hỏi thường gặp</a></li>
                                 <li><a href="account.html" class="dropdown-item">Tài khoản</a></li>
                                 <li><a href="thankyou.html" class="dropdown-item">Cảm ơn</a></li>

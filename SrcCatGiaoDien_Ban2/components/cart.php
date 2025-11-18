@@ -1,3 +1,14 @@
+<?php
+require_once 'header.php';
+$array = [
+    "components/cart.php"
+];
+
+foreach ($array as $component) {
+    require_once($component);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,7 +139,7 @@
     <script src="assets/client/js/plugins.js"></script>
     <script src="assets/client/js/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    
+
 </body>
 
 </html>
